@@ -1,5 +1,5 @@
 
-$kill @e[tag=warp_arrow,nbt={Owner:$(UUID)},distance=100..]
+$kill @e[tag=warp_arrow,nbt={Owner:$(UUID)},distance=150..]
 
 $execute as @n[tag=warp_arrow,nbt={Owner:$(UUID)}] \
 unless predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{movement:{speed:{max:0.1}}}} \

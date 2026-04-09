@@ -1,4 +1,5 @@
 
+$execute as @e[tag=warp_arrow,nbt={Owner:$(UUID)},distance=150..] run say Flew too far!
 $kill @e[tag=warp_arrow,nbt={Owner:$(UUID)},distance=150..]
 
 $execute as @n[tag=warp_arrow,nbt={Owner:$(UUID)}] \

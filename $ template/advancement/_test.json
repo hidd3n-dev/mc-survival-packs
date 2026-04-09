@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:_test"
+  }
+}

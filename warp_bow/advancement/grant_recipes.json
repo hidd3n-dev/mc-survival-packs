@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "warp_bow:warp_bow"
+    ]
+  }
+}

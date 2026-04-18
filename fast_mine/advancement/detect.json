@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:iron_pickaxe",
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe",
+                "minecraft:iron_shovel",
+                "minecraft:diamond_shovel",
+                "minecraft:netherite_shovel"
+              ],
+              "predicates": {
+                "minecraft:custom_name": {"text": "Carver"}
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:iron_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe",
+            "minecraft:iron_shovel",
+            "minecraft:diamond_shovel",
+            "minecraft:netherite_shovel"
+          ],
+          "predicates": {
+            "minecraft:custom_name": {"text": "Carver"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fast_mine:void"
+  }
+}

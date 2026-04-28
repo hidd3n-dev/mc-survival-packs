@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:compass",
+          "predicates": {"minecraft:lodestone_tracker": {}}
+        },
+        "entity": {
+          "type": "minecraft:glow_item_frame"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lode_warps:activate"
+  }
+}
